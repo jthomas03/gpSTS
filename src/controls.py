@@ -268,10 +268,12 @@ def perform_NanonisExp_BiasSpec(data):
         print("exception: ", sys.exc_info()[0])
         time.sleep(1)
         read_success = False
+    """
     try:
         mainvis(data_path = '../data/current_data/Data_model_1.npy')
     except:
         print('model visualizations failed to update.')
+    """
     return data
     
 

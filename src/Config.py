@@ -12,6 +12,7 @@ from gpsts.NanonisInterface.nanonis_interface import Nanonis
 from gpsts.NanonisInterface.data_class import ScanData, SpecCounter, PointList, ImageInfo
 from gpsts.NanonisInterface.kernel import kernel_l2
 import json
+
 ###############################
 ###Initialize##################
 ###############################
@@ -20,7 +21,7 @@ nanonis_config = {
 		"File": "gpSTSinit",
         "ExperimentName": "Test Out",
 		"Version": "0.0.1",
-		"ImageStart": "test_img001.sxm",
+		"ImageStart": "img001.sxm",
 		"FolderLocation": "C:\\gpSTS\\src\\",
         "DataLocation": "C:\\gpSTS\\src\\data\\",
 		"Channel": "Z",
