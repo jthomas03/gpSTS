@@ -29,9 +29,9 @@ after postprocessing is completed, training or classification with a trained mod
 
 Experimental configuration and hyperparameter specification is in: 
 
-'''
+```
 Config.py
-''''
+```
 
 ## Python Dependencies
 
