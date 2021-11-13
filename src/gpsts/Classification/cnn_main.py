@@ -143,7 +143,7 @@ def main_class():
     if dec == '1':
         print()
         model = Conv1d(num_classes).to(device)
-        model.load_state_dict(torch.load(tpath + model_name+'.ckpt'))
+        model.load_state_dict(torch.load(tpath + model_name+'.ckpt', map_location=device))
         model.eval()
         for i in range(0,out_full.shape[0]):
             for j in range(0,out_full.shape[1]):
@@ -160,7 +160,7 @@ def main_class():
     if dec == '2':
         print()
         model = Conv1d(num_classes).to(device)
-        model.load_state_dict(torch.load(tpath + model_name+'.ckpt'))
+        model.load_state_dict(torch.load(tpath + model_name+'.ckpt', map_location=device))
         model.eval()
         scplotx = []
         scploty = []

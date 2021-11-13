@@ -2,51 +2,12 @@ import torch
 import torch.nn as nn
 import torch.utils.data as dataloader
 import torchvision
-#import torchvision.transforms as transforms
 from torchvision.datasets import DatasetFolder
 import torch.nn.functional as F
 import matplotlib.pyplot as plt
 import numpy as np
 import Config
 import Config as conf
-#import os
-#import glob
-#from typing import Any, Callable, cast, Dict, List, Optional, Tuple
-#import time
-
-### Data loader ###
-#def predict_image(image):
-#    input = torch.from_numpy(image)
-#    input = input.unsqueeze(1)
-#    input = input.to(device)
-#    output = model(input)
-#    index = output.data.cpu().numpy().argmax()
-#    prob = F.softmax(output, dim=1)
-#    return index
-
-#def imrescale(im,amin=0,amax=255):
-#    tmin = im.min()
-#    tmax = im.max()
-#    out = np.zeros([im.shape[0],im.shape[1]]).astype('uint8')
-#    for i in range(0,im.shape[0]):
-#        for j in range(0,im.shape[1]):
-#            out[i][j] = int((((im[i][j] - tmin)*amax)/(tmax-tmin))+amin)
-#    return out
-
-#def adjust_learning_rate(epoch, lrate):
-#    if epoch > 30:
-#        learning_rate = learning_rate / 10
-#    elif epoch > 60:
-#        learning_rate = learning_rate / 100
-#    elif epoch > 90:
-#        learning_rate = learning_rate / 1000
-#    elif epoch > 120:
-#        learning_rate = learning_rate / 10000
-#    elif epoch > 150:
-#        learning_rate = learning_rate / 100000
-#    elif epoch > 180:
-#        learning_rate = learning_rate / 1000000
-#    return learning_rate
 
 def make_predictions(model, device, test_loader):
     # Set model to eval mode to notify all layers.

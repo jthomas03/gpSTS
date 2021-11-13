@@ -1,4 +1,4 @@
-# gpSPEC (powered by gpCAM) library within Nanonis/LabVIEW framework
+# gpSTS (powered by gpCAM) library within Nanonis/LabVIEW framework
 A Python-LabVIEW interface to run autonomous bias spectroscopy measurements.
 
 ## Requirements
@@ -12,8 +12,22 @@ from CLI with Nanonis controller, labVIEW application, and bias spectroscopy mod
 running:
 
 ```
-~python Run_gpSPEC.py
+~python Run_gpSTS.py
 ```
+
+after a completed autonomous experiment, from CLI:
+
+```
+~python Run_postprocessing.py
+```
+
+after postprocessing is completed, training or classification with a trained model can be performed, from CLI:
+
+```
+~python Run_CNN.py
+```
+
+Experimental configuration and hyperparameter specification is in Config.py
 
 ## Python Dependencies
 
