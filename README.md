@@ -27,7 +27,11 @@ after postprocessing is completed, training or classification with a trained mod
 ~python Run_CNN.py
 ```
 
-Experimental configuration and hyperparameter specification is in Config.py
+Experimental configuration and hyperparameter specification is in: 
+
+'''
+Config.py
+''''
 
 ## Python Dependencies
 
