@@ -41,4 +41,6 @@ The following dependencies are required, and should be available from PyPi.
 * ```matplotlib``` — visualization tool
 * ```scipy``` — scientific and technical computing library
 * ```gpcam``` — library for autonomous experimentation
-* ```pytorch``` — library for tensor computation and deep neural networks
+* ```fvgp``` — library for highly flexible function-valued Gaussian processes
+* ```torch``` — library for tensor computation and deep neural networks
+* ```torchvision``` — library for computer vision

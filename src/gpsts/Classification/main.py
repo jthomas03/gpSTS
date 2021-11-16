@@ -1,3 +1,7 @@
+# -*- coding: utf-8 -*-
+#
+# John C. Thomas 2021 gpSTS
+
 import sys
 import Config
 from gpsts.Classification.data_collect import InsertData, read_spec, closestval

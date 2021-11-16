@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 #
 # John C. Thomas 2021 gpSTS
+
 def read_spec(fil):
     data = []
     x1 = ''

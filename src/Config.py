@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 #
-# John C. Thomas 2021 gpSPEC
+# John C. Thomas 2021 gpSTS
 
 ###########################################
 ###Configuration File######################
@@ -94,7 +94,7 @@ from gpsts.NanonisInterface.graph import plot_2d_function
 
 parameters = {
     "x1": {
-        "element interval": [1,int(impix[0][0])], ####either an interval, several intervals or discrete points
+        "element interval": [1,int(impix[0][0])], 
     },
     "x2": {
         "element interval": [1,int(impix[0][0])],
@@ -162,10 +162,10 @@ number_of_suggested_measurements = 1
 ########################################
 ###Computation Parameters###############
 ########################################
-global_kernel_optimization_frequency = 0.2  # \in [0,1]
-local_kernel_optimization_frequency = 0.5  # \in [0,1]
-gpu_acceleration = False  # Part of future version
-rank_n_update = [False,0.2]  # only relevant for system_solve = "inv"
+global_kernel_optimization_frequency = 0.2  
+local_kernel_optimization_frequency = 0.5  
+gpu_acceleration = False  
+rank_n_update = [False,0.2]  
 gp_system_solver = "inv"  # "inv", "cg" or "minres"
 switch_system_solver_to_after = [True, "cg", 5000]
 ###############################

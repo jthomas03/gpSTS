@@ -1,15 +1,10 @@
-#!/usr/bin/env python
+# -*- coding: utf-8 -*-
 import time
 from time import strftime
 import numpy as np
 import Config as conf
-#global_config = Config
-
-#from .misc import Misc as smc
 from gpcam.data import Data
 from gpcam.gp_optimizer import GPOptimizer
-#import dask.distributed
-#from fvgp.fvgp import FVGP
 
 
 def mainvis(data_path = None, hyperparameter_path = None):

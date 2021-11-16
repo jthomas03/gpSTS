@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
 #
-# John C. Thomas 2021 gpSPEC
+# John C. Thomas 2021 gpSTS
 
 ################################################################
-######Run gpSPEC (built off gpCAM) with LabVIEW interface#######
+######Run gpSTS (built off gpCAM) with LabVIEW interface#######
 ################################################################
 import sys
 from gpsts.Classification.cnn_main import main_cnn, main_class

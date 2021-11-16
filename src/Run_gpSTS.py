@@ -1,27 +1,16 @@
 # -*- coding: utf-8 -*-
 #
-# John C. Thomas 2021 gpSPEC
+# John C. Thomas 2021 gpSTS
 
 ################################################################
-######Run gpSPEC (built off gpCAM) with LabVIEW interface#######
+######Run gpSTS (built off gpCAM) with LabVIEW interface#######
 ################################################################
 import sys
-#from gpsts.NanonisInterface.main import main2
-#from gpcam import global_config as conf
 import Config
-#global_config = Config
-#import gpsts.NanonisInterface.__init__
 import gpcam
 gpcam.global_config = Config
 from gpcam.main import main
 from gpsts.Classification.data_collect import InsertData
-
-#gpcam.__init__ = gpsts.NanonisInterface.__init__
-#for i in gpcam.__init__:
-#    print(i)
-#input()
-#from gpcam import main
-
 from pathlib import Path
 
 target_path = Path.cwd() / "data"
@@ -38,9 +27,6 @@ im_path.parent.mkdir(parents=True, exist_ok=True)
 current_path.parent.mkdir(parents=True, exist_ok=True)
 historical_path.parent.mkdir(parents=True, exist_ok=True)
 
-#print(target_path)
-#print(target_path.parents[1])
-#input()
 print("\n\
 Copyright (C) 2021 Version\n\
 \n\

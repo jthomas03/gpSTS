@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 #
-# John C. Thomas 2021 gpSPEC
+# John C. Thomas 2021 gpSTS
 
 #################################
 ##Bias Spectroscopy Collection###
@@ -149,7 +149,7 @@ def perform_NanonisExp_BiasSpec(data):
                 if entry["measured"] == True: 
                     continue
                 else: 
-                    entry['measurement values']['values'] = np.array([sumspec])#+(750*10**-9)
+                    entry['measurement values']['values'] = np.array([sumspec])
                     entry['measurement values']['value positions'] = np.array([0])
                     entry['measured'] = True
             os.remove(path_new_result+'result.txt')        
@@ -195,7 +195,7 @@ def perform_NanonisExp_BiasSpec(data):
             with open(path_new_command+'command.txt','w') as f:
                 x1o = data[len(data)-1]['position']['x1']
                 x2o = data[len(data)-1]['position']['x2']  
-                x1 = x1o*(pixcnst)+float(imoff1[0][0])-(winsize/2) #7.8125e-11 = (2e-8/128)*0.5
+                x1 = x1o*(pixcnst)+float(imoff1[0][0])-(winsize/2) 
                 x2 = x2o*(pixcnst)+float(imoff1[0][1])-(winsize/2) 
                 f.write(str(x1)+'\t')
                 f.write(str(x2)+'\t')
@@ -222,7 +222,7 @@ def perform_NanonisExp_BiasSpec(data):
                 with open(path_new_command+'command.txt','w') as f:
                     x1o = data[len(data)-1]['position']['x1']
                     x2o = data[len(data)-1]['position']['x2']  
-                    x1 = x1o*(pixcnst)+float(imoff[0][0])-(winsize/2) #7.8125e-11 = (2e-8/128)*0.5
+                    x1 = x1o*(pixcnst)+float(imoff[0][0])-(winsize/2) 
                     x2 = x2o*(pixcnst)+float(imoff[0][1])-(winsize/2) 
                     pntlist.add_pnt([x1o,x2o])
                     print(x1)
@@ -242,7 +242,7 @@ def perform_NanonisExp_BiasSpec(data):
                 with open(path_new_command+'command.txt','w') as f:
                     x1o = data[len(data)-1]['position']['x1']
                     x2o = data[len(data)-1]['position']['x2']  
-                    x1 = x1o*(pixcnst)+float(imoff[0][0])-(winsize/2) #7.8125e-11 = (2e-8/128)*0.5
+                    x1 = x1o*(pixcnst)+float(imoff[0][0])-(winsize/2) 
                     x2 = x2o*(pixcnst)+float(imoff[0][1])-(winsize/2) 
                     f.write(str(x1)+'\t')
                     f.write(str(x2)+'\t')
