@@ -36,7 +36,7 @@ nanonis_config = {
         "STSsignal": "Current (A)"
 	},
     "Neural_Network": {
-        "TrainingPath": "C:\\ML\\gpSTS_vSubmit\\gpSTS\\src\\train\\",
+        "TrainingPath": "C:\\gpSTS\\src\\train\\",
         "EpochNumber": 2,
         "ClassNumber": 4,
         "LearningRate": 0.001,
