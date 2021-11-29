@@ -40,13 +40,11 @@ The structure of the training path is shown below, where separate ```train``` an
     ├── train
     │   ├── class1
     │   ├── class2
-    │   ├── class3
-    │   ├── class4
+    │   ├── ...
     └── validation
         ├── class1
         ├── class2
-        ├── class3
-        ├── class4
+        ├── ...
 
 **Dataset used in publication is provided at:** http://doi.org/10.5281/zenodo.4633866.
 
