@@ -33,6 +33,23 @@ Experimental configuration and hyperparameter specification is in:
 Config.py
 ```
 
+## Model Training
+
+The structure of the training path is shown below, where separate ```train``` and ```validation``` folders are used for initial loading.
+
+    ├── train
+    │   ├── class1
+    │   ├── class2
+    │   ├── class3
+    │   ├── class4
+    └── validation
+        ├── class1
+        ├── class2
+        ├── class3
+        ├── class4
+
+**Dataset used in publication is provided at:** http://doi.org/10.5281/zenodo.4633866.
+
 ## Python Dependencies
 
 The following dependencies are required, and should be available from PyPi.
