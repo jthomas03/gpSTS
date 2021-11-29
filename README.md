@@ -51,7 +51,7 @@ If you use `gpSTS` in your work, please cite the accompanying [paper]:
 
 ```bibtex
 @article{thomas2021autonomous,
-      title={Autonomous Scanning Probe Microscopy Investigations over WS&#2082 and Au{111}}, 
+      title={Autonomous Scanning Probe Microscopy Investigations over WS₂ and Au{111}}, 
       author={John C. Thomas and Antonio Rossi and Darian Smalley and Luca Francaviglia and Zhuohang Yu and Tianyi Zhang and Shalini Kumari and Joshua A. Robinson and Mauricio Terrones and Masahiro Ishigami and Eli Rotenberg and Edward Barnard and Archana Raja and Ed Wong and D. Frank Ogletree and Marcus Noack and Alexander Weber-Bargioni},
       year={2021},
       eprint={2110.03351},
