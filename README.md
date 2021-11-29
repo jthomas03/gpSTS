@@ -64,7 +64,7 @@ The following dependencies are required, and should be available from PyPi.
 
 ## Citing
 
-If you use `gpSTS` in your work, please cite the accompanying [paper]:
+If you use `gpSTS` in your work, please cite the accompanying paper:
 
 ```bibtex
 @article{thomas2021autonomous,
