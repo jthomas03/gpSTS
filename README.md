@@ -46,7 +46,7 @@ The structure of the training path is shown below, where separate ```train``` an
         ├── class2
         ├── ...
 
-**Dataset used in publication is provided at:** http://doi.org/10.5281/zenodo.4633866.
+**Dataset used in publication is provided at:** https://doi.org/10.5281/zenodo.5768320.
 
 ## Python Dependencies
 
