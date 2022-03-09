@@ -101,11 +101,13 @@ parameters = {
     },
 }
 
-######acquisition and cost functions#####################
+###acquisition functions###
 def my_ac_func(x,obj):
   mean = obj.posterior_mean(x)["f(x)"]
   cov  = obj.posterior_covariance(x)["v(x)"]
-  return mean + 3.0 * np.sqrt(cov)
+  sig = obj.shannon_information_gain(x)["sig"]
+  ucb = mean + 3.0 * np.sqrt(cov)
+  return cov
 
 gaussian_processes = {
     "model_1": {
