@@ -256,7 +256,7 @@ Option 2 will then show the following test:
 Plot interpolated results by entering a 1, plot collected point classification by entering a 2, or exit otherwise: 
 ```
 
-In this tutorial, again, as the surface is spectroscopically invariant in the Nanonis simulator, only one class exists.
+In this tutorial, as the surface is spectroscopically invariant in the Nanonis simulator, only one class exists.
 
 Point classification:
 
