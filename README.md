@@ -64,7 +64,7 @@ The following dependencies are required, and should be available from PyPi.
 
 ## LabVIEW Dependencies
 * ```Nanonis Programming Interface V4.0 - R7683```   — user library to interface with Nanonis controller.
-* Also see https://github.com/jthomas03/gpSTS_bu/blob/main/src/labview/NanonisProgInterface_gpSTS_required.lvlib
+* Also see https://github.com/jthomas03/gpSTS/blob/main/src/labview/NanonisProgInterface_gpSTS_required.lvlib
     * ```Save dat File.vi```
     * ```Save dat File (Core).vi```
     * ```Prog Interface - OpenAppRef.vi```
