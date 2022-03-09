@@ -172,7 +172,7 @@ Where the upper confidence is given by:
   return ucb
  ```
 
-Shannon's entropy gain is given by:
+Shannon's information gain is given by:
 
 ``` 
   return sig
