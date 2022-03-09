@@ -258,10 +258,6 @@ Plot interpolated results by entering a 1, plot collected point classification b
 
 In this tutorial, again, as the surface is spectroscopically invariant in the Nanonis simulator, only one class exists.
 
-Interpolated results:
-
-<img src="im/experiment_conclude_interpolated.PNG" style="width:200px;height:200px;">
-
 Point classification:
 
 <img src="im/experiment_conclude_points.PNG" style="width:300px;height:200px;">
