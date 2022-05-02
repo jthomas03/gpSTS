@@ -275,12 +275,17 @@ Experimental Workflow:
 If you use `gpSTS` in your work, please cite the accompanying paper:
 
 ```bibtex
-@article{thomas2021autonomous,
-      title={Autonomous Scanning Probe Microscopy Investigations over WS₂ and Au{111}}, 
-      author={John C. Thomas and Antonio Rossi and Darian Smalley and Luca Francaviglia and Zhuohang Yu and Tianyi Zhang and Shalini Kumari and Joshua A. Robinson and Mauricio Terrones and Masahiro Ishigami and Eli Rotenberg and Edward Barnard and Archana Raja and Ed Wong and D. Frank Ogletree and Marcus Noack and Alexander Weber-Bargioni},
-      year={2021},
-      eprint={2110.03351},
-      archivePrefix={arXiv},
-      primaryClass={cond-mat.mtrl-sci},
-      url={https://arxiv.org/abs/2110.03351}
+@article{Thomas2022,
+author={Thomas, John C. and Rossi, Antonio and Smalley, Darian and Francaviglia, Luca and Yu, Zhuohang and Zhang, Tianyi and Kumari, Shalini and Robinson, Joshua A. and Terrones, Mauricio and Ishigami, Masahiro and Rotenberg, Eli and Barnard, Edward S. and Raja, Archana and Wong, Ed and Ogletree, D. Frank and Noack, Marcus M. and Weber-Bargioni, Alexander},
+title={Autonomous scanning probe microscopy investigations over WS2 and Au{111}},
+journal={npj Computational Materials},
+year={2022},
+month={May},
+day={02},
+volume={8},
+number={1},
+pages={99},
+issn={2057-3960},
+doi={10.1038/s41524-022-00777-9},
+url={https://doi.org/10.1038/s41524-022-00777-9}
 }
