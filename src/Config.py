@@ -21,7 +21,7 @@ nanonis_config = {
 		"File": "gpSTSinit",
         "ExperimentName": "Test Out",
 		"Version": "0.0.1",
-		"ImageStart": "img001.sxm",
+		"ImageStart": "test_img001.sxm",
 		"FolderLocation": "C:\\gpSTS\\src\\",
         "DataLocation": "C:\\gpSTS\\src\\data\\",
 		"Channel": "Z",
