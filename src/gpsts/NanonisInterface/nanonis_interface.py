@@ -164,7 +164,7 @@ class Nanonis(object):
     def sxm_plot(imdata, filloc, filname, collectedpnts):
         fig, ax = plt.subplots()
         z_min, z_max = imdata.min(), imdata.max()
-        x, y = np.meshgrid(np.linspace(1, imdata.shape[0], imdata.shape[0]), np.linspace(1, imdata.shape[1], imdata.shape[1]))
+        x, y = np.meshgrid(np.linspace(1, imdata.shape[1], imdata.shape[1]), np.linspace(1, imdata.shape[0], imdata.shape[0]))
         cout = ax.pcolormesh(x,y,imdata, cmap='gray', vmin=z_min, vmax=z_max,shading='auto')
         ax.axis([x.min(), x.max(), y.min(), y.max()])
         plt.axis('scaled')
